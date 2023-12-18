@@ -5,7 +5,7 @@ import java.util.Random;
  * prints them, and then prints the minimal number that was generated.
  */
 public class GenThree {
-	public static void main(String[] args) {
+  public static void main(String[] args) {
     int lowerBound = Integer.parseInt(args[0]);
     int upperBound = Integer.parseInt(args[1]);
 
@@ -28,5 +28,5 @@ public class GenThree {
     }
 
     System.out.println("The minimal generated number was " + lowestNumberGenerated);
-	}
+  }
 }
