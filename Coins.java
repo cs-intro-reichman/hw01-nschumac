@@ -9,6 +9,6 @@ public class Coins {
     int quarters = totalCents / 25;
     int centsRest = totalCents % 25;
 
-    System.out.println("User " + quarters + " quarters and " + centsRest + " cents");
+    System.out.println("Use " + quarters + " quarters and " + centsRest + " cents");
 	}
 }
